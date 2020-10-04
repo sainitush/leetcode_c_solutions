@@ -10,7 +10,8 @@ typedef struct node_
  * Note: The returned array must be malloced, assume caller calls free().
  */
 int* twoSum(int* nums, int numsSize, int target, int* returnSize)
-{ node_t hash[SIZE] = {0,};
+{ 
+    node_t hash[SIZE] = {0,};
 
     for (int i = 0; i < numsSize; i++)
     {
